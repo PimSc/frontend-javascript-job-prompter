@@ -72,51 +72,8 @@ const departments = {
 }
 
 
-console.log("de afdeling sales heeft " + departments.sales.numberOfEmployees +  " medewerkers");
-console.log(" Marketing is een leuke afdeling om te werken. " + departments.marketing.description);
-console.log("De afdeling Customer Service heeft " + departments["customer-service"].numberOfEmployees + " medewerkers")
-console.log("Sales is een uitdagende afdeling om te werken als Verkoopmanager. " + departments.sales.jobs[1].description)
-
-
-
-
-const userInput = prompt('Over welke afdeling wil je meer informatie? Kies uit: [marketing / sales / customer-service?');
-console.log(userInput);
-
-
-
-let roleTitleElement = document.getElementById("role-title");
-let departmentDescriptionElement = document.getElementById("department-description");
-
-
-
-// switch (userInput) {
-//     case "marketing":
-//         roleTitleElement.textContent = "Marketing"
-//         departmentDescriptionElement.textContent = departments.marketing.description;
-//         break
-//     case "sales":
-//         roleTitleElement.textContent = "Sales"
-//         departmentDescriptionElement.textContent = departments.sales.description;
-//         break
-//     case "customer-service":
-//         roleTitleElement.textContent = "customer-service"
-//         departmentDescriptionElement.textContent = departments["customer-service"].description;
-//         break
-//     default: const userInput = prompt("Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.");
-//
-
-const userInput1 = prompt('Over welke afdeling wil je meer informatie? Kies uit: [marketing / sales / customer-service?');
-console.log(userInput1);
 
 
 
 
 
-
-
-
-
-
-
-}
